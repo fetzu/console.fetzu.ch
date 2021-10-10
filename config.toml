@@ -26,7 +26,7 @@ ignoreErrors = ["error-remote-getjson"]
   # ./[folderName]/
   # ...
   # Note: result of the tree command
-  userName = "console"
+  userName = "visitor"
   pcName = "fetzu.ch"
   workDir = "website"
   profile = "welcome.txt"
