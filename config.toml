@@ -69,12 +69,12 @@ ignoreErrors = ["error-remote-getjson"]
   folderName = "links"
   # Note: ["ACTIVITY", "URL or PATH TO YOUR MARKDOWN FILE"]
   files = [
-    ["Website", "https://www.fetzu.ch/"] 
+    ["Website", "https://www.fetzu.ch/"], 
     ["GitHub", "https://github.com/fetzu/"],
     ["500px", "https://500px.com/fetzu/"],
     ["Vimeo", "https://vimeo.com/fetzu/"],
     ["Soundcloud", "https://soundcloud.com/alterbono/"],
-    ["Bandcamp", "https://alterbono.bandcamp.com/"],
+    ["Bandcamp", "https://alterbono.bandcamp.com/"]
     #["Blog", "/blog/"],
   ]
 
