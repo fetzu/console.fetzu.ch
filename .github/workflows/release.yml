@@ -36,4 +36,4 @@ jobs:
         if: ${{ github.ref == 'refs/heads/main' }}
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          ppublish_branch: gh-pages
+          publish_branch: gh-pages
