@@ -1,10 +1,9 @@
-name: GitHub Pages
+name: Deploy to GitHub Pages (mirror)
 
 on:
-  push:
-    branches:
-      - main  # Set a branch name to trigger deployment
-  pull_request:
+  release:
+    types: published
+  workflow_dispatch:
 
 jobs:
   deploy:
@@ -33,7 +32,7 @@ jobs:
         # If you're changing the branch from main,
         # also change the `main` in `refs/heads/main`
         # below accordingly.
-        if: ${{ github.ref == 'refs/heads/main' }}
+        # if: ${{ github.ref == 'refs/heads/main' }}
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           # publish_branch: gh-pages
